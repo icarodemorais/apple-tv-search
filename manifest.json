@@ -4,9 +4,9 @@
   "description": "Add a search bar to tv.apple.com",
   "version": "1.0",
   "icons":{
-    "16":"/images/apple-16.png",
-    "48":"/images/apple-48.png",
-    "128":"/images/apple-128.png"
+    "16":"/images/search-logo-16.png",
+    "48":"/images/search-logo-48.png",
+    "128":"/images/search-logo-128.png"
   },
   "content_scripts":[
       {
