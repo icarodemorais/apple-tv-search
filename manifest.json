@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Apple Tv Search Bar",
+  "description": "Add a search bar to tv.apple.com",
+  "version": "1.0",
+  "icons":{
+    "16":"/images/apple-16.png",
+    "48":"/images/apple-48.png",
+    "128":"/images/apple-128.png"
+  },
+  "content_scripts":[
+      {
+          "matches":["https://tv.apple.com/*"],
+          "js":["/jquery/jquery-3.6.0.min.js","/scripts/apple-tv-search.js"],
+          "css":["/css/search-style.css"],
+          "run_at":"document_end"
+      }
+  ]
+}
